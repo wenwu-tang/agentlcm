@@ -19,12 +19,12 @@ Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a la
 	./simulation: main program for simulation modeling
 	./src: code for generic agents, environments,...
 
-*To compile: 
+* To compile: 
 	go to ./simulation: then: make simulation
 
-*To run:
+* To run:
 	Go to ./simulation; then: make run
 
-*Reference
+## Reference
 
 Tang, W. (2008). Simulating complex adaptive geographic systems: A geographically aware intelligent agent approach. Cartography and Geographic Information Science, 35(4), 239-263
