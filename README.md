@@ -1,13 +1,14 @@
-*** AgentLCM ***
-*** Wenwu Tang ***
-*** latest update: 01/07/2020 ***
-
 # AgentLCM: Agent-based Land Change Modeling
 AgentLCM is an agent-based model for the simulation of land use and land cover change. AgentLCM is based on the modification of GAIASP: GAIA Simulation Package (GAIA: Geographically Aware Intelligent Agents; Tang 2008)
 
-# Publication: 
+# Associated Publication: 
 
 Tang, W, and Yang, J., 2020(accepted), Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation.
+
+# Instruction
+*** AgentLCM ***
+*** Wenwu Tang ***
+*** latest update: 01/07/2020 ***
 
 * For latest version and update: https://github.com/wenwu-tang/agentlcm
 
