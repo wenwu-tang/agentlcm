@@ -18,10 +18,10 @@ Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a la
 	* ./src: code for generic agents, environments,...
 
 * To compile: 
-	go to ./simulation: then: make simulation
+	* go to ./simulation: then: make simulation
 
 * To run:
-	Go to ./simulation; then: make run
+	* go to ./simulation; then: make run
 
 ## Reference
 
