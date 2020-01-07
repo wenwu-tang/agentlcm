@@ -1,0 +1,10 @@
+county 	id
+Davie		1
+Forsyth		2
+Davidson	3
+Cabarrus	4
+Randolph	5
+Rowan		6
+Guilford	7
+Iredell		8
+
