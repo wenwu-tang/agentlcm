@@ -1,5 +1,5 @@
 # AgentLCM: Agent-based Land Change Modeling
-AgentLCM is an agent-based model for the simulation of land use and land cover change. AgentLCM is based on the modification of GAIASP: GAIA Simulation Package (GAIA: Geographically Aware Intelligent Agents; Tang 2008). AgentLCM is written in C++ programming language. 
+AgentLCM is an agent-based model for the simulation of land use and land cover change. AgentLCM is modified from GAIASP: GAIA Simulation Package (GAIA: Geographically Aware Intelligent Agents; Tang 2008). AgentLCM is written in C++ programming language. 
 
 Please see HERE for an ODD (Overview, Design concept, Details; see Grimm et al. 2010) protocol of AgentLCM developed for the land change simulation of a large watershed in North Carolina, USA. 
 
