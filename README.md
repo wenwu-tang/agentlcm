@@ -3,7 +3,7 @@ AgentLCM is an agent-based model for the simulation of land use and land cover c
 
 # Associated Publication: 
 
-Tang, W, and Yang, J., 2020(accepted), Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation.
+Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation.
 
 # Instruction
 *** AgentLCM ***
