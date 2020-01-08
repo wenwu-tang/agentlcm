@@ -3,10 +3,6 @@ AgentLCM is an agent-based model for the simulation of land use and land cover c
 
 Please see HERE for an ODD (Overview, Design concept, Details; see Grimm et al. 2010) protocol of AgentLCM developed for the land change simulation of a large watershed (lower High Rock Lake Watershed) in North Carolina, USA. The study region covers 8 counties in North Carolina. 
 
-## Associated Publication: 
-
-Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation.
-
 ## Instruction
 **Latest update: 01/07/2020**
 
@@ -24,6 +20,10 @@ Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a la
 
 * To run:
 	* go to ./simulation; then: make run
+
+## Associated Publication: 
+
+Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation.
 
 ## Reference
 
