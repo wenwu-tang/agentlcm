@@ -49,10 +49,26 @@ void GeoEnvironment::loadModel(){
 	int i,j,ii,jj;
 	double val;
 	ifstream f;
+	int val1;
 
 	for(i=0;i<params->num_spatial_variables;i++){//disable this for parallel
 		f.open(params->variablesFile[i]);
-		for(j=0;j<6;j++) f.getline(str,100);
+		if(i==0){///read header info of an ASCII grid
+                        f>>str>>val1;
+                        f>>str>>val1;
+                        f>>str>>val1;
+                        params->xllcorner=val1;
+                        f>>str>>val1;
+                        params->yllcorner=val1;
+                        f>>str>>val1;
+                        params->cellsize=val1;
+                        f>>str>>val1;
+                        params->NODATA_value=val1;
+                }
+                else{
+                        for(j=0;j<6;j++) f.getline(str,100);
+                }
+
 		for(ii=0;ii<params->nrows*params->ncolumns;ii++){
 			f>>val;
 			landscape[ii].attributes[i]=val;
@@ -523,12 +539,14 @@ void GeoEnvironment::export2ASC(char* fn){
 	double val;
 	ofstream f;
 	f.open(fn);
-	f<<"ncols	4746"<<endl;
-	f<<"nrows	4378"<<endl;
-	f<<"xllcorner	1328775"<<endl;
-	f<<"yllcorner	1461195"<<endl;
-	f<<"cellsize	30"<<endl;
-	f<<"NODATA_value	-9999"<<endl;
+
+        f<<"ncols       "<<params->ncolumns<<endl;
+        f<<"nrows       "<<params->nrows<<endl;
+        f<<"xllcorner   "<<params->xllcorner<<endl;
+        f<<"yllcorner   "<<params->yllcorner<<endl;
+        f<<"cellsize    "<<params->cellsize<<endl;
+        f<<"NODATA_value        "<<params->NODATA_value<<endl;
+
 
 	for(i=0;i<params->nrows;i++){
 		for(j=0;j<params->ncolumns;j++){
@@ -544,12 +562,12 @@ void GeoEnvironment::exportSim2ASC(char* fn){
         double val;
         ofstream f;
         f.open(fn);
-        f<<"ncols       4746"<<endl;
-        f<<"nrows       4378"<<endl;
-        f<<"xllcorner   1328775"<<endl;
-        f<<"yllcorner   1461195"<<endl;
-        f<<"cellsize    30"<<endl;
-        f<<"NODATA_value        -9999"<<endl;
+	f<<"ncols               "<<params->ncolumns<<endl;
+        f<<"nrows               "<<params->nrows<<endl;
+        f<<"xllcorner           "<<params->xllcorner<<endl;
+        f<<"yllcorner           "<<params->yllcorner<<endl;
+        f<<"cellsize            "<<params->cellsize<<endl;
+        f<<"NODATA_value        "<<params->NODATA_value<<endl;
 
         for(i=0;i<params->nrows;i++){
                 for(j=0;j<params->ncolumns;j++){

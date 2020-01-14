@@ -53,6 +53,10 @@ public:
 typedef struct _GeoParams GeoParams;
 struct _GeoParams{
         int     nrows,ncolumns;
+        int  	xllcorner,yllcorner;
+        int     cellsize;
+        int  	NODATA_value;
+
         int     nSim; //#simulation to repeat
         int     nSteps; //#iteration steps per simulation (e.g., years)
         char    demandFile[MAX_FILE_NAME];
