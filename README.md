@@ -1,7 +1,7 @@
 # Agent-LCM: Agent-based Land Change Modeling
 Agent-LCM is an agent-based model (ABM) for the simulation of land use and land cover change. Agent-LCM is modified from GAIASP: GAIA Simulation Package (GAIA: Geographically Aware Intelligent Agents; Tang 2008). Agent-LCM is written in C++ programming language. 
 
-Please see HERE for an ODD (Overview, Design concept, Details; see Grimm et al. 2010) ABM protocol of Agent-LCM developed for the land change simulation of a large watershed (lower High Rock Lake Watershed) in North Carolina, USA. The study region covers 8 counties in the Piedmont region of North Carolina. 
+Please see HERE (http://jasss.soc.surrey.ac.uk/23/1/15.html) for an ODD (Overview, Design concept, Details; see Grimm et al. 2010) ABM protocol of Agent-LCM developed for the land change simulation of a large watershed (lower High Rock Lake Watershed) in North Carolina, USA. The study region covers 8 counties in the Piedmont region of North Carolina. 
 
 ## Instruction
 
@@ -22,7 +22,7 @@ Please see HERE for an ODD (Overview, Design concept, Details; see Grimm et al. 
 
 ## Associated Publication: 
 
-Tang, W, and Yang, J., 2020 (accepted), Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation.
+Tang, W, and Yang, J., 2020, Agent-based land change modeling of a large watershed: Space-time locations of critical threshold, Journal of Artificial Societies and Social Simulation. 23(1): 15. Online Available at: http://jasss.soc.surrey.ac.uk/23/1/15.html
 
 ## Reference
 
